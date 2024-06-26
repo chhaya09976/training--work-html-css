@@ -1,0 +1,77 @@
+@import 'variables';
+$color:skyblue;
+body{
+    background: $color;
+    font-family:$font ;
+
+}
+header{
+    padding: 1rem;
+    color: set-text-color()
+
+
+
+h1{
+    color: $head;
+    background-color: black;
+    line-height: 1.5;
+    text-align: center;
+}
+}
+.section{
+    padding: 3rem;
+}
+h3{
+    font-size: 2rem;
+
+    &-a{
+        background: $prinart-color;
+        color: #fff;
+    }
+}
+// a{
+//     color: #333;
+//     &:hover{
+//         color: coral;
+
+//     }
+// }
+h3{
+    font-size: 2rem;
+
+    &-b{
+        background: $prinart-color;
+        color: #fff;
+    }
+}
+// a{
+//     color: #333;
+//     &:hover{
+//         color: coral;
+        
+//     }
+// }
+%btn-shared{
+    display: inline-block;
+    padding: 0.7rem 2rem;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 1rem;
+}
+.btn{
+    &-light{
+        @extend %btn-shared;
+        background-color: lightblue;
+        color: #fff
+    }
+    // &:hover{
+    //     @include transform(rotate(20deg));
+    // }
+    &-dark{
+        @extend %btn-shared;
+        background-color: lightblue;
+        color: #fff;
+
+    }
+}

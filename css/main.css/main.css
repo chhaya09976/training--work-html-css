@@ -1,0 +1,42 @@
+body {
+  background: skyblue;
+  font-family: cabri; }
+
+header {
+  padding: 1rem;
+  color: set-text-color() h1;
+    color-color: white;
+    color-background-color: black;
+    color-line-height: 1.5;
+    color-text-align: center; }
+
+.section {
+  padding: 3rem; }
+
+h3 {
+  font-size: 2rem; }
+  h3-a {
+    background: #333;
+    color: #fff; }
+
+h3 {
+  font-size: 2rem; }
+  h3-b {
+    background: #333;
+    color: #fff; }
+
+.btn-light, .btn-dark {
+  display: inline-block;
+  padding: 0.7rem 2rem;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 1rem; }
+
+.btn-light {
+  background-color: lightblue;
+  color: #fff; }
+
+.btn-dark {
+  background-color: lightblue;
+  color: #fff; }

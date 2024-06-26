@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid template</title>
+    <style>
+        /* Only css of the template */
+         
+        .container{
+            display: grid;
+            grid-template-areas: 'header header header'
+            'content content content'
+            'box-1 box-2 box-3'
+            'footer footer footer';
+            grid-gap: 1rem;
+        }
+        .header{
+            grid-area: header;
+        }
+        .content{
+            grid-area: content;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header"><h1>My Website</h1></header>
+        <section class="content">
+            <h3>Welcome to My site</h3>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, harum neque est deleniti incidunt impedit aperiam quas iste illum nisi doloribus velit molestias, odit nihil omnis vitae beatae. Officiis, id?</p>
+</section>
+</div>
+
+    
+</body>
+</html>

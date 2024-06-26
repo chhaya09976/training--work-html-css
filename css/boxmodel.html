@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Box Model/Margin & Padding</title>
+	<style type="text/css">
+		/* CSS Reset*/
+		*{
+			margin:0 ;
+			padding: 0;
+			box-sizing: border-box;
+
+		}
+
+		.box{
+			background: #f4f4f4;
+			border: 2px #777 solid;
+			width: 500px;
+
+			/* padding on all sides*/
+			padding: 20px;
+
+			/* padding per side */
+			padding-top: 10px;
+			padding-right: 20px;
+			padding-bottom:10px ;
+			padding-left: 20px;
+
+			/* padding shorthand= top,rignt,bottom, left */
+			padding: 10px 20px 10px 20px;
+
+			/* padding shorthand= top/bottom ,left/right */
+			padding: 10px 20px;
+
+			/* margin on all sides */
+			margin: 20px;
+
+			/* margin per side */
+			margin-top: 10px;
+			margin-right: 20px;
+			margin-bottom:10px ;
+			marging-left: 20px;
+			
+			/* margin shorthand= top,rignt,bottom, left */
+			margin: 10px 20px 10px 20px;
+
+			/* margin shorthand= top/bottom ,left/right */
+			margin: 10px 20px;
+		}
+		.box h3{
+			padding-bottom: 10px;
+		}
+		
+
+	</style>
+</head>
+<body>
+	<div class="box">
+		<h3>Box One</h3>
+		<p >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+	<div class="box">
+		<h3>Box Two</h3>
+		<p >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+
+
+</body>
+</html>

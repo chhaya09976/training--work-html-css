@@ -1,0 +1,18 @@
+//set text color
+@function set-trxt-xolor($color){
+    @if(lightness($color)>50){
+        @return pink;
+    }
+    @else{
+        @REturn #fff;
+
+    }
+
+   
+}
+//TRansform mixin
+// @mixin transform($property){
+//     --webkit-transform:$property;
+//     -ms-transform:$property;
+//     transform: $property;
+// }
